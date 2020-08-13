@@ -1,0 +1,43 @@
+.btn-main{
+    padding: 1.5rem 7.5rem;
+    background-image: linear-gradient(to right,var(--color-primary-light),var(--color-primary-dark));
+    border-radius: 100px;
+    color: var(--color-grey-light-4);
+    outline: none;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+    &__visible{
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        transition: all 0.2s;
+
+    }
+    &__invisible{
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        transition: all 0.2s;
+    }
+    &:hover{
+        background-image: linear-gradient(to left,var(--color-primary-light),var(--color-primary-dark));
+    }
+    &:hover &__visible{
+        transform: translateY(100px);
+    }
+    &:hover &__invisible{
+        top:34%;
+    }
+    &:focus{
+        outline: none;
+        animation: popup 1s infinite;
+    }
+}

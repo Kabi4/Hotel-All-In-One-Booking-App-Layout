@@ -1,0 +1,27 @@
+@import "abstracts/variables";
+@import "base/animations";
+
+@import "page/home";   
+ 
+@import "components/logo";
+@import "components/searchBox";
+@import "components/user-nav";
+@import "components/copyright"; 
+@import "components/sidenav";
+@import "components/gallery";
+@import "components/btn--inline"; 
+@import "components/list"; 
+@import "components/recommend";
+@import "components/btn-main";
+
+@import "layout/review_box";
+@import "layout/header";  
+@import "layout/main"; 
+@import "layout/navigation";
+@import "layout/overview";
+@import "layout/description";
+@import "layout/reviews";
+@import "layout/cta";
+
+@import "base/typography";
+@import "base/base";

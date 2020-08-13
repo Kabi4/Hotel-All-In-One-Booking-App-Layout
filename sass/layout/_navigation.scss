@@ -1,0 +1,9 @@
+.navigation{
+    background-color: var(--color-grey-dark-1);
+    //text-align: center;
+
+    flex: 0 0 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
