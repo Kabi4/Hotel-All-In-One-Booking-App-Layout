@@ -301,6 +301,49 @@
     outline: none;
     animation: popup 1s infinite; }
 
+.user_nav__icon_box-chat {
+  position: relative; }
+  .user_nav__icon_box-chat:hover .user_nav__chats {
+    opacity: 1;
+    visibility: visible; }
+
+.user_nav__chats {
+  position: absolute;
+  top: 100%;
+  transform: translateX(-100%);
+  background-color: var(--color-primary-light);
+  margin-top: -2rem;
+  padding-top: 2rem;
+  width: 30rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s;
+  border-radius: 3px; }
+  .user_nav__chats__other {
+    display: flex;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--color-grey-light-4); }
+    .user_nav__chats__other__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 1rem; }
+      .user_nav__chats__other__content__main {
+        display: flex;
+        justify-content: space-between; }
+        .user_nav__chats__other__content__main_name {
+          color: var(-color-grey-dark-1);
+          font-weight: 600; }
+        .user_nav__chats__other__content__main-time {
+          font-size: 1rem; }
+    .user_nav__chats__other__image {
+      height: 4rem;
+      width: 4rem;
+      border-radius: 50%; }
+    .user_nav__chats__other__msg {
+      color: black; }
+
 .user_reviews_box {
   display: flex;
   position: relative;
