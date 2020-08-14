@@ -5,4 +5,7 @@
     padding: 1.5rem 3rem;
     display: flex;
     flex-direction: column;
+    @include respond(layer-6){
+        padding: 1rem 2rem;
+    }
 }

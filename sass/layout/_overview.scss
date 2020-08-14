@@ -15,6 +15,14 @@
         font-weight: 300;
         letter-spacing: 1px;
         text-transform: uppercase;
+        
+        &-span{
+            @include respond(layer-5){
+                padding: 1rem;
+                -webkit-box-decoration-break: clone;
+                box-decoration-break: clone;
+            }
+        }
         }
     }
     &__stars{

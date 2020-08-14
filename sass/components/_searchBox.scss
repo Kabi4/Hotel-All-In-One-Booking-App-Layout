@@ -4,6 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @include respond(layer-5){
+        order: 1;
+        flex: 0 0 100%;
+        margin: 1rem 0;
+    }
 
     &__input{
         font-family: inherit;

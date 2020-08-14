@@ -2,6 +2,9 @@
     display: flex;
     align-items: center;
     padding-top: 8rem;
+    @include respond(layer-6){
+        padding-top: 4rem;
+    }
     &_para{
         margin-right: auto;
     }
@@ -13,7 +16,10 @@
             border: 2px solid var(--color-grey-light-1);
             box-sizing: content-box;
             &:not(:last-child){
-                margin-right: -1rem;
+                margin-right: -1.5rem;
+                @include respond(layer-8){
+                    margin-right: -2rem;
+                }
             }
         }
     }

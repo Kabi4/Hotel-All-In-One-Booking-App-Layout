@@ -6,11 +6,18 @@
     background-color: var(--background-color-white);
 
     margin: 8rem auto;
-
+    @include respond(layer-10){
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 .content{
     display: flex;
+    @include respond(layer-7){
+        flex-direction: column;
+    }
 }
 
 .details{
@@ -18,4 +25,9 @@
     display: flex;
     padding: 4.5rem;
     border-bottom: 2px solid var(--color-grey-light-4);
+    @include respond(layer-6){
+        flex-direction: column;
+        padding: 2rem;
+    }
+    
 }

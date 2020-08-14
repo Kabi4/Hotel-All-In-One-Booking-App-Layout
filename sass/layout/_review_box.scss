@@ -8,6 +8,10 @@
     margin-bottom: 3.5rem;
     font-size: 1.4rem;
     overflow: hidden;
+    @include respond(layer-6){
+        margin-bottom: 2.5rem;
+        padding: 1rem 1rem;
+    }
     &::before{
         content: "\201C";
         display: inline-block;
