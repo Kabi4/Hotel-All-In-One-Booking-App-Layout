@@ -308,6 +308,7 @@
     visibility: visible; }
 
 .user_nav__chats {
+  z-index: 1000;
   position: absolute;
   top: 100%;
   transform: translateX(-100%);
