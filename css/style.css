@@ -309,6 +309,7 @@
 
 .user_nav__chats {
   z-index: 1000;
+  box-shadow: 1rem 2rem 4rem rgba(0,0,0,0.8);
   position: absolute;
   top: 100%;
   transform: translateX(-100%);
