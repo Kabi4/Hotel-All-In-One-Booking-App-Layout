@@ -306,6 +306,9 @@
   .user_nav__icon_box-chat:hover .user_nav__chats {
     opacity: 1;
     visibility: visible; }
+    .user_nav__icon_box-chat:focus .user_nav__chats {
+        opacity: 1;
+        visibility: visible; }
 
 .user_nav__chats {
   z-index: 1000;
